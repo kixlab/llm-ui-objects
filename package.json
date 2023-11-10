@@ -1,0 +1,66 @@
+{
+  "name": "llm-ui-objects",
+  "version": "1.3.0",
+  "description": "Interactive object components for LLM-powered writing interfaces",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kixlab/llm-ui-objects.git"
+  },
+  "keywords": [
+    "LLM",
+    "AI",
+    "NLP",
+    "Writing"
+  ],
+  "author": "Tae Soo Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kixlab/llm-ui-objects/issues"
+  },
+  "homepage": "https://github.com/kixlab/llm-ui-objects#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.5",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/react": "^7.4.5",
+    "@storybook/react-webpack5": "^7.4.5",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@testing-library/jest-dom": "^6.1.3",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.1",
+    "@types/jest": "^29.5.5",
+    "@types/styled-components": "^5.1.28",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^3.29.3",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "storybook": "^7.4.5",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-quill": "^2.0.0",
+    "styled-components": "^6.0.8"
+  }
+}
